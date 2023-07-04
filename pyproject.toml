@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "automationRwc"
+version = "0.1.0"
+description = ""
+authors = ["Aaron Greenblatt <aaronbgreenblatt@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+websocket-client = "^1.6.1"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
